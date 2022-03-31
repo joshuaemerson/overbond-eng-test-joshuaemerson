@@ -1,0 +1,17 @@
+{
+  "name": "overbond-eng-test-joshuaemerson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha ./tests/* --exit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "mocha": "^9.2.2",
+    "supertest": "^6.2.2"
+  }
+}
