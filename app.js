@@ -1,4 +1,4 @@
-// function used to format the data recieved from the file
+// helper function used to format the data recieved from the file
 async function formatData(filePath) {
   // use the helper function formatData to obtain the file data as JSON
   const fileData = await loadFileContents(filePath);
@@ -71,6 +71,8 @@ async function loadFileContents(filePath) {
   }
 }
 
+// file path is the relative path of the file that has the data you want to graph
+// only this function needs to be called
 async function createScatterPlots(filePath) {
   const graphData = await formatData(filePath);
 
